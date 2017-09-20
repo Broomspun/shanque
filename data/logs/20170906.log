@@ -1,0 +1,477 @@
+2017-09-06 10:43:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwXWYWxt2rQMM2C1YMurAPjg]]></FromUserName>
+<CreateTime>1504665942</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 10:43:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwXWYWxt2rQMM2C1YMurAPjg',
+    'createtime' => '1504665942',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwXWYWxt2rQMM2C1YMurAPjg',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504665942',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 10:43:10 response :
+------------
+
+2017-09-06 10:44:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwXWYWxt2rQMM2C1YMurAPjg]]></FromUserName>
+<CreateTime>1504665999</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 10:44:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwXWYWxt2rQMM2C1YMurAPjg',
+    'createtime' => '1504665999',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwXWYWxt2rQMM2C1YMurAPjg',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504665999',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 10:44:07 response :
+------------
+
+2017-09-06 10:45:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwQiFMH_ICUsHYxUfBzgwxxQ]]></FromUserName>
+<CreateTime>1504666097</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-09-06 10:45:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'createtime' => '1504666097',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504666097',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-09-06 10:45:45 response :
+------------
+
+2017-09-06 10:45:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwQiFMH_ICUsHYxUfBzgwxxQ]]></FromUserName>
+<CreateTime>1504666101</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 10:45:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'createtime' => '1504666101',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504666101',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 10:45:49 response :
+------------
+
+2017-09-06 11:37:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwQiFMH_ICUsHYxUfBzgwxxQ]]></FromUserName>
+<CreateTime>1504669133</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 11:37:19 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'createtime' => '1504669133',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504669133',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 11:37:19 response :
+------------
+
+2017-09-06 11:37:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwQiFMH_ICUsHYxUfBzgwxxQ]]></FromUserName>
+<CreateTime>1504669141</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 11:37:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'createtime' => '1504669141',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile',
+    'menuid' => '418167167',
+    'from' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504669141',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 11:37:26 response :
+------------
+
+2017-09-06 11:37:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwQiFMH_ICUsHYxUfBzgwxxQ]]></FromUserName>
+<CreateTime>1504669157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 11:37:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'createtime' => '1504669157',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwQiFMH_ICUsHYxUfBzgwxxQ',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504669157',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 11:37:42 response :
+------------
+
+2017-09-06 14:38:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwdAOLc0TUOOgZxiowyGgBk0]]></FromUserName>
+<CreateTime>1504680005</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 14:38:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'createtime' => '1504680005',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504680005',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 14:38:30 response :
+------------
+
+2017-09-06 14:39:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwdAOLc0TUOOgZxiowyGgBk0]]></FromUserName>
+<CreateTime>1504680060</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 14:39:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'createtime' => '1504680060',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504680060',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 14:39:25 response :
+------------
+
+2017-09-06 14:40:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwdAOLc0TUOOgZxiowyGgBk0]]></FromUserName>
+<CreateTime>1504680127</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 14:40:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'createtime' => '1504680127',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile',
+    'menuid' => '418167167',
+    'from' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504680127',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 14:40:32 response :
+------------
+
+2017-09-06 14:41:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwdAOLc0TUOOgZxiowyGgBk0]]></FromUserName>
+<CreateTime>1504680159</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 14:41:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'createtime' => '1504680159',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504680159',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 14:41:04 response :
+------------
+
+2017-09-06 14:41:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_2ac110140a4d]]></ToUserName>
+<FromUserName><![CDATA[ozapJwdAOLc0TUOOgZxiowyGgBk0]]></FromUserName>
+<CreateTime>1504680172</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119]]></EventKey>
+<MenuId>418167167</MenuId>
+</xml>
+
+2017-09-06 14:41:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_2ac110140a4d',
+    'fromusername' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'createtime' => '1504680172',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'menuid' => '418167167',
+    'from' => 'ozapJwdAOLc0TUOOgZxiowyGgBk0',
+    'to' => 'gh_2ac110140a4d',
+    'time' => '1504680172',
+    'type' => 'text',
+    'content' => 'http://shanque.zhangshuoyin.cn/app/./index.php?i=1&c=entry&eid=119',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-09-06 14:41:17 response :
+------------
+

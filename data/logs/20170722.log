@@ -1,0 +1,58 @@
+2017-07-22 17:27:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_storex_plugin_tel` WHERE `uniacid` =  :__uniacid AND `storeid` =  :__storeid<hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+  ':__storeid' => '',
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_tel' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex_plugin_hotel_service/site.php; line: 270; <br />file: /addons/wn_storex_plugin_hotel_service/site.php; line: 67; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 17:27:11 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_storex_plugin_room_item` WHERE `uniacid` =  :__uniacid ORDER BY id DESC <hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_room_item' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex_plugin_hotel_service/site.php; line: 98; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 18:48:08 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_storex_plugin_tel` WHERE `uniacid` =  :__uniacid AND `storeid` =  :__storeid<hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+  ':__storeid' => '',
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_tel' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex_plugin_hotel_service/site.php; line: 270; <br />file: /addons/wn_storex_plugin_hotel_service/site.php; line: 67; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 18:48:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_storex_plugin_room_item` WHERE `uniacid` =  :__uniacid ORDER BY id DESC <hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_room_item' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex_plugin_hotel_service/site.php; line: 98; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 18:48:20 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `name`,`id` FROM `ims_storex_plugin_printer` WHERE `uniacid` =  :__uniacid<hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_printer' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex/inc/web/order.inc.php; line: 394; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 18:48:20 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `storeid`,`id`,`printerids` FROM `ims_storex_plugin_printer_set` WHERE `uniacid` =  :__uniacid<hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_printer_set' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex/inc/web/order.inc.php; line: 395; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 18:54:24 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `name`,`id` FROM `ims_storex_plugin_printer` WHERE `uniacid` =  :__uniacid<hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_printer' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex/inc/web/order.inc.php; line: 394; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-22 18:54:24 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `storeid`,`id`,`printerids` FROM `ims_storex_plugin_printer_set` WHERE `uniacid` =  :__uniacid<hr/>Params: <br/>array (
+  ':__uniacid' => 1,
+)<hr/>SQL Error: <br/>Table 'shanque.ims_storex_plugin_printer_set' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/class/db.class.php; line: 239; <br />file: /framework/function/pdo.func.php; line: 53; <br />file: /addons/wn_storex/inc/web/order.inc.php; line: 395; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+

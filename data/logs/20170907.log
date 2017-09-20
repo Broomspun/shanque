@@ -1,0 +1,12 @@
+2017-09-07 15:30:00 SQL Error :
+------------
+String:
+SQL: <br/>SELECT r.*,  r.hotelid AS store_base_id, h.title AS hoteltitle FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.hotelid = h.id  WHERE r.weid = '1'  ORDER BY h.id, r.sortid DESC LIMIT 0,20<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'field list'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 279; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-09-07 15:30:00 SQL Error :
+------------
+String:
+SQL: <br/>SELECT COUNT(*) FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.hotelid = h.id  WHERE r.weid = '1' <hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'on clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 141; <br />file: /framework/function/pdo.func.php; line: 36; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 280; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+

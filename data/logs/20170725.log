@@ -1,0 +1,42 @@
+2017-07-25 23:27:41 SQL Error :
+------------
+String:
+SQL: <br/>SELECT r.*,  h.title AS hoteltitle FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.store_base_id = h.id  WHERE r.weid = '1'  AND r.hotelid = :hotelid ORDER BY h.id, r.sortid DESC LIMIT 0,20<hr/>Params: <br/>array (
+  ':hotelid' => '1',
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 273; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-25 23:27:41 SQL Error :
+------------
+String:
+SQL: <br/>SELECT COUNT(*) FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.store_base_id = h.id  WHERE r.weid = '1'  AND r.hotelid = :hotelid<hr/>Params: <br/>array (
+  ':hotelid' => '1',
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 141; <br />file: /framework/function/pdo.func.php; line: 36; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 274; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-25 23:27:44 SQL Error :
+------------
+String:
+SQL: <br/>SELECT r.*,  h.title AS hoteltitle FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.store_base_id = h.id  WHERE r.weid = '1'  AND r.hotelid = :hotelid ORDER BY h.id, r.sortid DESC LIMIT 0,20<hr/>Params: <br/>array (
+  ':hotelid' => '1',
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 273; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-25 23:27:44 SQL Error :
+------------
+String:
+SQL: <br/>SELECT COUNT(*) FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.store_base_id = h.id  WHERE r.weid = '1'  AND r.hotelid = :hotelid<hr/>Params: <br/>array (
+  ':hotelid' => '1',
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 141; <br />file: /framework/function/pdo.func.php; line: 36; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 274; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-25 23:27:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT r.*,  h.title AS hoteltitle FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.store_base_id = h.id  WHERE r.weid = '1'  AND r.hotelid = :hotelid ORDER BY h.id, r.sortid DESC LIMIT 0,20<hr/>Params: <br/>array (
+  ':hotelid' => '1',
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 273; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
+2017-07-25 23:27:46 SQL Error :
+------------
+String:
+SQL: <br/>SELECT COUNT(*) FROM `ims_storex_goods` r LEFT JOIN `ims_storex_bases` h ON  r.store_base_id = h.id  WHERE r.weid = '1'  AND r.hotelid = :hotelid<hr/>Params: <br/>array (
+  ':hotelid' => '1',
+)<hr/>SQL Error: <br/>Unknown column 'r.hotelid' in 'where clause'<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 141; <br />file: /framework/function/pdo.func.php; line: 36; <br />file: /addons/wn_storex/inc/web/goodsmanage.inc.php; line: 274; <br />file: /addons/wn_storex/site.php; line: 61; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/source/site/entry.ctrl.php; line: 81; <br />file: /web/index.php; line: 191; <br />
+
