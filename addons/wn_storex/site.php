@@ -190,7 +190,8 @@ class Wn_storexModuleSite extends WeModuleSite {
 	public function doMobilelist() {
 		global $_GPC, $_W;
 		$type = $_GPC['type'];
-		$room = pdo_fetchall("SELECT * FROM " . tablename('storex_room') . " WHERE type = :type ", array(':type' => $type));
+		$ps = $_GPC['ps'];
+		$room = pdo_fetchall("SELECT * FROM " . tablename('storex_room') . " WHERE type = :type and bed = :ps ", array(':type' => $type,':ps' => $ps ));
 		include $this->template('list');
 	}
 	
