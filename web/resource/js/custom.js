@@ -7,15 +7,19 @@
             e.preventDefault();
             var city = $('input[name="city_name"]').val();
             var ps = $('input[name="persons_per_room"]').val();
+            var mainUrl = "http://shanque.zhangshuoyin.cn/app/index.php?i=1&c=entry&";
 
             if($(this).hasClass('color_similar')){
-                alert(1);
+                window.location.href=mainUrl+"type=1&do=list&m=wn_storex&"+"city="+city+"&ps="+ps;
+                return false;
             }
             else if($(this).hasClass('color1_similar')){
-                alert(2);
+                window.location.href=mainUrl+"type=0&do=list&m=wn_storex&"+"city="+city+"&ps="+ps;
+                return false;
             }
             else if($(this).hasClass('color2_similar')){
-                alert(3);
+                window.location.href=mainUrl+"type=2&do=list&m=wn_storex&"+"city="+city+"&ps="+ps;
+                return false;
             }
 
 
