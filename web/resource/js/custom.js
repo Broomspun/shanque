@@ -25,5 +25,14 @@
 
         })
 
+        $('#price_filter li').on('click', function (e) {
+            e.preventDefault();
+            var url = window.location.href;
+            url = url.replace(/&price=[\d]+/g,'');
+            window.location.href = url+'&price='+$(this).data('range');
+            return false;
+        })
     });
+
+
 })( jQuery );

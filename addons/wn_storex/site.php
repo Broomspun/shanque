@@ -191,7 +191,35 @@ class Wn_storexModuleSite extends WeModuleSite {
 		global $_GPC, $_W;
 		$type = $_GPC['type'];
 		$ps = $_GPC['ps'];
-		$room = pdo_fetchall("SELECT * FROM " . tablename('storex_room') . " WHERE type = :type and bed = :ps ", array(':type' => $type,':ps' => $ps ));
+
+		$price_range = $_GPC['price'];
+        $price0 = 0;
+        $price1 = 10000000;
+        if($price_range==1)
+            $price1 = 60;
+        else if($price_range==2){
+            $price0 = 60;
+            $price1 = 120;
+        }
+        else if($price_range==3){
+            $price0 = 120;
+            $price1 = 250;
+        }
+        else if($price_range==4){
+            $price0 = 250;
+            $price1 = 500;
+        }
+        else if($price_range==5){
+            $price0 = 500;
+            $price1 = 1000;
+        }
+        else if($price_range==6){
+            $price0 = 1000;
+            $price1 = 100000000;
+        }
+
+
+		$room = pdo_fetchall("SELECT * FROM " . tablename('storex_room') . " WHERE type = :type and bed = :ps and cprice >=:price0 and cprice<:price1", array(':type' => $type,':ps' => $ps, ':price0'=>$price0,':price1'=>$price1 ));
 		include $this->template('list');
 	}
 	

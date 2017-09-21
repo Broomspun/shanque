@@ -69,13 +69,13 @@
     </ul>
 </div>
 <div class="price-eject price-height">
-    <ul class="price" id="price">
-        <li onclick="price(this)">60元以下</li>
-        <li onclick="price(this)">60元-120元</li>
-        <li onclick="price(this)">120元-250元</li>
-        <li onclick="price(this)">250元-500元</li>
-        <li onclick="price(this)">500元-1000元</li>
-        <li onclick="price(this)">1000元以上</li>
+    <ul class="price" id="price_filter">
+        <li data-range="1">60元以下</li>
+        <li data-range="2">60元-120元</li>
+        <li data-range="3">120元-250元</li>
+        <li data-range="4">250元-500元</li>
+        <li data-range="5">500元-1000元</li>
+        <li data-range="6">1000元以上</li>
     </ul>
 </div>
 <div class="filter-eject price-height">
@@ -88,6 +88,9 @@
         <li onclick="price(this)">1000元以上</li>
     </ul>
 </div>
+        <?php
+        echo 'price-range=', $price_range;
+        ?>
 <!--房子列表-->
 <div class="Pro_list_style clearfix">
  <?php  if(is_array($room)) { foreach($room as $r) { ?>
