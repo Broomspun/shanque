@@ -67,7 +67,7 @@
   </div>
 <div class="container"> 
    <div class="detaild_title"><?php  echo $detail['title'];?></div>
-   <p class="detaild_price">450/天 <span class="deposit">免佣金</span></p> 
+   <p class="detaild_price"><?php echo $detail['cprice'];?>元/天 <span class="deposit">免佣金</span></p>
    </div>
     <div class="account-box">
         <h2 class="account-title">

@@ -31,7 +31,7 @@
        <li class="Regional">城市 <i class="fa  fa-angle-down"></i></li>
        <li class="Sort">排序 <i class="fa  fa-angle-down"></i></li>
        <li class="meishi">价格 <i class="fa  fa-angle-down"></i></li>             
-        <li class="Brand_filter">筛选 <i class="fa  fa-angle-down"></i></li>
+       <li class="Brand_filter">筛选 <i class="fa  fa-angle-down"></i></li>
     </ul>
 </div>
   <!--筛选内容-->  
@@ -88,9 +88,6 @@
         <li onclick="price(this)">1000元以上</li>
     </ul>
 </div>
-        <?php
-        echo 'price-range=', $price_range;
-        ?>
 <!--房子列表-->
 <div class="Pro_list_style clearfix">
  <?php  if(is_array($room)) { foreach($room as $r) { ?>
