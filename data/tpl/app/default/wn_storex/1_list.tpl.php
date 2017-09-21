@@ -37,7 +37,7 @@
   <!--筛选内容-->  
   <div class="grade-eject">
     <ul class="grade-w" id="gradew">
-        <li onclick="grade1(this)">丹东 <span class="xiaobiao">1225</span></li>
+        <li onclick="grade1(this)">丹东 <span class="xiaobiao"><?php echo count($room); ?></span></li>
     </ul>
     <ul class="grade-t" id="gradet">
     	<div class="zimu">A</div>
@@ -87,7 +87,7 @@
         <li onclick="price(this)">500元-1000元</li>
         <li onclick="price(this)">1000元以上</li>
     </ul>
-</div>           
+</div>
 <!--房子列表-->
 <div class="Pro_list_style clearfix">
  <?php  if(is_array($room)) { foreach($room as $r) { ?>
