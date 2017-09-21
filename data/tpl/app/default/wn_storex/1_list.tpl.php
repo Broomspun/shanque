@@ -36,25 +36,7 @@
   <!--筛选内容-->  
   <div class="grade-eject">
     <ul class="grade-w" id="gradew">
-        <li onclick="grade1(this)">哈尔滨 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">全国 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">北京 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">天津 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">河北 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">山西 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">内蒙古 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">辽宁 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">吉林 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">黑龙江 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">上海 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">江苏 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">山东 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">河南 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">湖北 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">湖南 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">广东 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">广西 <span class="xiaobiao">1225</span></li>
-        <li onclick="grade1(this)">海南 <span class="xiaobiao">1225</span></li>
+        <li onclick="grade1(this)">丹东 <span class="xiaobiao">1225</span></li>
     </ul>
     <ul class="grade-t" id="gradet">
     	<div class="zimu">A</div>

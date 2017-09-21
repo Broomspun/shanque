@@ -39,7 +39,7 @@
     <!--<div class="search_style" id="search_Click"><em class="jiantou" ><i class="fa fa-caret-up "></i></em>搜索预订房屋 <em class="fa fa-search search_btn"></em></div>-->
     <div class="Add_content" id="Expand_content">
      <ul class=" add_style">
-      <li class="location"><i class="fa fa-map-marker "></i><input name="" value="丹东" type="text" class="text" placeholder="目的地"></li>
+      <li class="location"><i class="fa fa-map-marker"></i><input name="" value="丹东" type="text" class="text" placeholder="目的地"></li>
       <li class="Time_choice">     
         <div class="Start_time time_style">
         <div class="icon"><i class="fa fa-calendar"></i></div>
