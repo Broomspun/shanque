@@ -169,7 +169,7 @@ $(document).ready(function () {
                             }
                         }
                         else
-                            price_div = "<div class='f-yuan' data-date='" + currentDate1 + "'></div>";
+                            price_div = "<div class='f-yuan'></div>";
                     }
                     mystr += "<div class='f-td " + class_name + "'><span class='f-day'>" + (i) + "</span>"
                         + price_div
