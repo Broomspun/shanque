@@ -160,10 +160,16 @@ $(document).ready(function () {
                         class_name = "f-null past";
                         price_div = '';
                     } else {
-                        if (res!=null && res[currentDate1] !== undefined)
-                            price_div = "<div class='f-yuan' data-date='" + currentDate1 + "'>" + res[currentDate1].price + "</div>";
+                        if (res!=null && res[currentDate1] !== undefined) {
+                            price_div = "<div class='f-yuan'>" + res[currentDate1].price + "</div>";
+
+                            if(res[currentDate1].status==0)  {
+                                class_name = "f-null past";
+                                price_div = "<div class='f-yuan'></div>";
+                            }
+                        }
                         else
-                            price_div = "<div class='f-yuan' data-date='" + currentDate1 + "'>20</div>";
+                            price_div = "<div class='f-yuan' data-date='" + currentDate1 + "'></div>";
                     }
                     mystr += "<div class='f-td " + class_name + "'><span class='f-day'>" + (i) + "</span>"
                         + price_div
