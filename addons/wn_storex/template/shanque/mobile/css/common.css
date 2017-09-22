@@ -577,7 +577,7 @@ input:checked + .slider-v3::after {
 	margin-top: -1px;
 	margin-left: -1px;
 	float: left;
-	width: 14.5%;
+	width: 14.25%;
 	text-align: center;
 	height:46px;
 	line-height: 46px;
