@@ -59,6 +59,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".grade-w>li").click(function(){
+        return false;
         $(".grade-t")
             .css("left","50%")
     });

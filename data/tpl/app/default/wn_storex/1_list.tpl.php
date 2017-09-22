@@ -37,7 +37,7 @@
   <!--筛选内容-->  
   <div class="grade-eject">
     <ul class="grade-w" id="gradew">
-        <li onclick="grade1(this)">丹东 <span class="xiaobiao"><?php echo count($room); ?></span></li>
+        <li >丹东 <span class="xiaobiao"><?php echo count($room); ?></span></li>
     </ul>
     <ul class="grade-t" id="gradet">
     	<div class="zimu">A</div>
