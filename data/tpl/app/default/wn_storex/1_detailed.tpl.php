@@ -156,7 +156,7 @@ echo htmlspecialchars_decode($detail['device']);
             }
             ?>
        	</div>
-         <?php  if($ispay['id'] > 0) { ?>
+         <?php  if($ispay['id'] > 0 && empty($my_review)) { ?>
            <div class="container" style="margin-top: 20px;">
                <div class="row">
 
