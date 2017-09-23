@@ -98,7 +98,7 @@
     </div>
     <!--介绍-->
     <div class="">
-       
+
        <div class="fd_user clearfix">
         <div class="user_Avatar">
         <em class="Avatar_img"><img src="../addons/wn_storex/template/shanque/mobile/images/user.jpg" width="60%"></em>
@@ -161,17 +161,15 @@ echo htmlspecialchars_decode($detail['device']);
                <div class="row">
 
                <form class="form-horizontal" id="review-form" method="post">
-                   <input type="hidden" name="uid" value="<?php echo $_W['openid']; ?>"/>
-                   <input type="hidden" name="fanid" value="<?php echo $_W['fans']['fanid']; ?>"/>
-                   <input type="hidden" name="nickname" value="<?php echo $_W['fans']['nickname']; ?>"/>
+                   <input type="hidden" name="uid" value="<?php echo $_W['fans']['uid']; ?>"/>
                    <input type="hidden" name="roomid" value="<?php echo $_GPC['id']; ?>"/>
                    <div class="form-group">
-                       <div class="col-sm-offset-2 col-sm-10 col-xs-offset-1 col-xs-10">
+                       <div class="col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
                        <textarea required name="review-desc" placeholder="Leave a review" class="form-control" rows="3"></textarea>
                        </div>
                    </div>
                    <div class="form-group">
-                       <div class="col-sm-offset-2 col-sm-10 col-xs-offset-1 col-xs-10">
+                       <div class="col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
                            <button type="submit" class="text-center col-xs-12 btn btn-default">Submit</button>
                        </div>
                    </div>

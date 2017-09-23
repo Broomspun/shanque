@@ -32,6 +32,32 @@
             window.location.href = url+'&price='+$(this).data('range');
             return false;
         })
+
+        $('form#review-form').on('submit', function (e) {
+            e.preventDefault();
+            var datastring = $("form#review-form").serialize();
+            $.ajax({
+                method: "POST",
+                url: "http://shanque.zhangshuoyin.cn/addons/wn_storex/insertReview.php",
+                dataType: "json",
+                data: datastring,
+            })
+                .done(function( res ) {
+                    if(res.message=='1'){
+                        alert('Success!');
+
+                        var $html= '<div class="content"><div class="Evaluation_user">';
+                        $html +='<em><img src="'+res.avatar+'"></em><h5>'+ res.nickname+'</h5></div>';
+                        $html += '<div class="Evaluation_info"><p>'+res.entry.review+'</p></div>';
+                        $html += '<div class="time">发布时间：'+res.entry.review_date+'</div></div>';
+                        $('.Evaluation_list').append($html).fadeIn(1000);
+                    }
+                    else
+                        alert('failed');
+                })
+
+
+        })
     });
 
 
