@@ -51,6 +51,9 @@
                         $html += '<div class="Evaluation_info"><p>'+res.entry.review+'</p></div>';
                         $html += '<div class="time">发布时间：'+res.entry.review_date+'</div></div>';
                         $('.Evaluation_list').append($html).fadeIn(1000);
+                        var reviews = parseInt($('.review-counts').text())+1;
+                        $('.review-counts').text(reviews.toString());
+                        $('#review-form').fadeOut(500);
                     }
                     else
                         alert('failed');
