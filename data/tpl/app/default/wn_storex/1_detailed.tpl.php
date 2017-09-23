@@ -11,6 +11,7 @@
 <script src="../addons/wn_storex/template/shanque/mobile/js/jquery.min.1.8.2.js" type="text/javascript"></script>
 <script src="../addons/wn_storex/template/shanque/mobile/js/common.js" type="text/javascript"></script>
 <script src="../addons/wn_storex/template/shanque/mobile/js/demo.js" type="text/javascript"></script>
+<script src="../web/resource/js/custom.js"  type="text/javascript"></script>
 <title><?php  echo $detail['title'];?></title>
 </head>
 
@@ -65,7 +66,7 @@
   <span><i class="icon_rens"></i><?php  echo $detail['floor'];?>人</span>
   <span><i class="icon_recommend"></i>4.5分</span></a>
   </div>
-<div class="container"> 
+<div class="container">
    <div class="detaild_title"><?php  echo $detail['title'];?></div>
    <p class="detaild_price"><?php echo $detail['cprice'];?>元/天 <span class="deposit">免佣金</span></p>
    </div>
@@ -130,28 +131,59 @@ echo htmlspecialchars_decode($detail['device']);
   	<div class="con">
        <div class="Evaluation">
        	<div class="Evaluation_list">
-       		<div class="content">
-       		  <div class="Evaluation_user">
-       		  	<em><img src="../addons/wn_storex/template/shanque/mobile/images/user.jpg"></em>
-       		  	<h5>化海天堂</h5>
-       		  </div>
-       		  <div class="Evaluation_info">
-       		  	<p>1:首先来说说酒店：五星级酒店，空间很大环境优，住的园景大床房估摸着有50平，三楼，有阳台空中花园，隔天的自助早餐种类丰富，不理解的是为什么有很多酒店的工作人员一起吃，工作人员不应该都是单独分开吃的么？</p>     		         		  	
-       		  </div>
-       		  <div class="time">发布时间：2017-04-24</div>
-       		</div> 
-       		<div class="content">
-       		  <div class="Evaluation_user">
-       		  	<em><img src="../addons/wn_storex/template/shanque/mobile/images/user.jpg"></em>
-       		  	<h5>化海天堂</h5>
-       		  </div>
-       		  <div class="Evaluation_info">
-       		  	<p>1:首先来说说酒店：五星级酒店，空间很大环境优，住的园景大床房估摸着有50平，三楼，有阳台空中花园，隔天的自助早餐种类丰富，不理解的是为什么有很多酒店的工作人员一起吃，工作人员不应该都是单独分开吃的么？</p>     		         		  	
-       		  </div>
-       		  <div class="time">发布时间：2017-04-24</div>
-       		</div>    		
+            <?php if(is_array($reviews)) {
+                foreach ($reviews as $review) {
+                    if($review['avatar']!=='')
+                        $img = $review['avatar'];
+                    else
+                        $img = "../addons/wn_storex/template/shanque/mobile/images/user.jpg";
+                    ?>
+                    <div class="content">
+                        <div class="Evaluation_user">
+                            <em><img src="<?php echo $img; ?>"></em>
+                            <h5>
+                            <?php echo $review['nickname'];?>
+                            </h5>
+                        </div>
+                        <div class="Evaluation_info">
+                            <p>
+                                <?php echo $review['review'];?>
+                            </p>
+                        </div>
+                        <div class="time">发布时间：<?php echo $review['review_date']?></div>
+                    </div>
+                <?php }
+            }
+            ?>
        	</div>
+         <?php  if($ispay['id'] > 0) { ?>
+           <div class="container" style="margin-top: 20px;">
+               <div class="row">
+
+               <form class="form-horizontal" id="review-form" method="post">
+                   <input type="hidden" name="uid" value="<?php echo $_W['openid']; ?>"/>
+                   <input type="hidden" name="fanid" value="<?php echo $_W['fans']['fanid']; ?>"/>
+                   <input type="hidden" name="nickname" value="<?php echo $_W['fans']['nickname']; ?>"/>
+                   <input type="hidden" name="roomid" value="<?php echo $_GPC['id']; ?>"/>
+                   <div class="form-group">
+                       <div class="col-sm-offset-2 col-sm-10 col-xs-offset-1 col-xs-10">
+                       <textarea required name="review-desc" placeholder="Leave a review" class="form-control" rows="3"></textarea>
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <div class="col-sm-offset-2 col-sm-10 col-xs-offset-1 col-xs-10">
+                           <button type="submit" class="text-center col-xs-12 btn btn-default">Submit</button>
+                       </div>
+                   </div>
+               </form>
+               </div>
+
+           </div>
+         <?php } ?>
        </div>
+
+
+
 	  </div>
 	  <div class="con">
 	  	<div class="Pro_list_style clearfix">
