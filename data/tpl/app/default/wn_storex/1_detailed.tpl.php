@@ -116,7 +116,7 @@ echo htmlspecialchars_decode($detail['device']);
         <div class="s-detail">
  	 <div id="leftTabBoxs">
    <div class="hd">
-    <ul><li>详情</li><li>评价（1）</li><li>周边</li></ul>
+    <ul><li>详情</li><li>评价（<?php echo count($reviews); ?>）</li><li>周边</li></ul>
    </div>
   <div class="bd"  id="tabBox1-bd">
   <div class="con">
