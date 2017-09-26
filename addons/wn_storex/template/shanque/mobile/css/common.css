@@ -577,13 +577,16 @@ input:checked + .slider-v3::after {
 	margin-top: -1px;
 	margin-left: -1px;
 	float: left;
-	width: 14.25%;
+	width: 14.15%;
 	text-align: center;
-	height:46px;
-	line-height: 46px;
+	height:46px;line-height: 46px;
 	position: relative;
 	}
-.f-yuan{position: absolute;width: 20px;height: 20px;top: 13px;margin-left: 10px; }
+.f-null{
+    color: #aaa;
+    background-color: #eee;
+}
+.f-yuan{position: absolute;height: 20px;top: 13px;margin-left: 10px; }
 .f-rili-head{ border-bottom:1px solid #cccccc}
 .deta_Introduction{ background-color: #ffffff; margin:1rem 0; color:#999; padding:10px; border-bottom:1px dashed #dddddd; }
 .deta_Introduction b{ color:#0C6AAF}

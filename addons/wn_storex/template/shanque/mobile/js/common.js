@@ -161,7 +161,7 @@ $(document).ready(function () {
                         price_div = '';
                     } else {
                         if (res!=null && res[currentDate1] !== undefined) {
-                            price_div = "<div class='f-yuan'>" + res[currentDate1].price + "</div>";
+                            price_div = "<div class='f-yuan'>" + res[currentDate1].price + "元</div>";
 
                             if(res[currentDate1].status==0)  {
                                 class_name = "f-null past";

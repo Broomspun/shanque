@@ -12,6 +12,7 @@
 <script src="../addons/wn_storex/template/shanque/mobile/js/common.js" type="text/javascript"></script>
 <script src="../addons/wn_storex/template/shanque/mobile/js/demo.js" type="text/javascript"></script>
 <script src="../web/resource/js/custom.js"  type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -37,7 +38,7 @@
   <!--筛选内容-->  
   <div class="grade-eject">
     <ul class="grade-w" id="gradew">
-        <li onclick="grade1(this)">丹东 <span class="xiaobiao"><?php echo count($room); ?></span></li>
+        <li >丹东 <span class="xiaobiao"><?php echo count($room); ?></span></li>
     </ul>
     <ul class="grade-t" id="gradet">
     	<div class="zimu">A</div>

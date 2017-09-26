@@ -11,6 +11,7 @@
 <script src="../addons/wn_storex/template/shanque/mobile/js/jquery.min.1.8.2.js" type="text/javascript"></script>
 <script src="../addons/wn_storex/template/shanque/mobile/js/common.js" type="text/javascript"></script>
 <script src="../addons/wn_storex/template/shanque/mobile/js/mobiscroll.custom-2.6.2.min.js"  type="text/javascript"></script>
+<script src="../web/resource/js/custom.js"  type="text/javascript"></script>
 <title>山雀之家</title>
 </head>
 <body>
