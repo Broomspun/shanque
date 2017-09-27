@@ -116,7 +116,7 @@
                                                         <div class="col-xs-4">
                                                             <div class="checkbox">
                                                                 <label>
-                                                                    <input name="room_status" id="room-status" value="1" type="checkbox">
+                                                                    <input name="room_status" id="room-status" value="1" type="checkbox" checked="checked">
                                                                     Status
                                                                 </label>
                                                             </div>

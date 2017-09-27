@@ -156,22 +156,22 @@ $(document).ready(function () {
                     var currentDate1 = activeYear + '-' + activeMonth + '-' + currentDate0;
 
                     var price_div;
+
                     if (currentDate < fullToday) {
                         class_name = "f-null past";
                         price_div = '';
                     } else {
-                        if (res!=null && res[currentDate1] !== undefined) {
-                            price_div = "<div class='f-yuan'>" + res[currentDate1].price + "元</div>";
+                        if ( res[currentDate1]!=undefined) {
+                            price_div = "<div class='f-yuan' data-status='"+res[currentDate1].status+"'>" + res[currentDate1].price + "元</div>";
 
                             if(res[currentDate1].status==0)  {
-                                class_name = "f-null past";
-                                price_div = "<div class='f-yuan'></div>";
+                                class_name = "f-number unavailable";
                             }
                         }
                         else
                             price_div = "<div class='f-yuan'></div>";
                     }
-                    mystr += "<div class='f-td " + class_name + "'><span class='f-day'>" + (i) + "</span>"
+                    mystr += "<div class='f-td " + class_name + "'><span data-date='"+currentDate1+"' class='f-day'>" + (i) + "</span>"
                         + price_div
                         //+"<div class='f-table-msg'></div>"//这里加判断
                         + "</div>";

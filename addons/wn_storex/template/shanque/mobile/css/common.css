@@ -691,3 +691,10 @@ font-size:36px; margin-top:15px; color:#289F0F; display:block; border:2px solid 
 .rule_style .title_name{ text-align: center; font-size: 18px; margin: 1rem 0rem;}
 .rule_style  .rule_content{ color: #888888}
 #leftTabBoxs .Pro_list_style{ top: 0rem}
+
+.f-number.unavailable{
+    background-color: rgb(253,215,204);
+}
+.f-number{
+    background-color: rgb(192,255,193);
+}
