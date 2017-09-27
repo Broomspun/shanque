@@ -65,7 +65,10 @@
         $(document).on('click', ".f-rili-table .f-number", function(){
             $(".f-rili-table .f-number").removeClass("f-on");
             $(this).addClass("f-on");
+
             var current_date = $('.f-on span.f-day').data('date');
+            $("#current-date").val(current_date);
+
             var price = $('.f-on .f-yuan').text();
             if(price=='')
                 price = 0.00
@@ -87,8 +90,58 @@
             else
                 $('#room-status').prop('checked', true);
 
+            var table_id = -1;
+            if($('.f-on div.f-yuan').data('table-id')!=undefined)
+                table_id = $('.f-on div.f-yuan').data('table-id');
+
+            $('#table-id').val(table_id);
+
+            var room_num =1;
+            if($('.f-on div.f-yuan').data('num')!=undefined)
+                room_num = $('.f-on div.f-yuan').data('num');
+
+            $('#room-num').val(room_num);
+
             $('#myModal').modal('show');
         });
+
+        $(document).on('click', '#change-room-status',function(){
+
+            var cprice = $('#room-price').val();
+            if(cprice.trim()==''){
+                alert('Please enter price!')
+                return false;
+            }
+            var rooms = $('#room-num').val();
+            if(rooms.trim()==''){
+                alert('Please enter numbers of room!')
+                return false;
+            }
+
+            var room_status = 1;
+
+            if($('#room-status').is(":checked")==false)
+                room_status = 0;
+            $.ajax({
+                method: "POST",
+                url: "http://shanque.zhangshuoyin.cn/addons/wn_storex/template/changeRoomStatus.php",
+                dataType: "json",
+                data: {
+                    room_id: $('#roomid').val(),
+                    room_cprice: $('#room-price').val(),
+                    room_status: room_status,
+                    current_date: $("#current-date").val(),
+                    table_id: $('#table-id').val(),
+                    room_nums: $('#room-num').val()
+                }
+            })
+            .done(function( res ) {
+                console.log(res);
+                var x = 10
+            })
+
+            $('#myModal').modal('hide')
+       })
 
 
     });

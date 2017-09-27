@@ -105,15 +105,22 @@
                                     <div class="modal-body">
                                         <div class="row" id="room-setting-container">
                                             <div class="room-setup col-xs-offset-1 col-xs-10">
-                                                    <input type="hidden" name="room_user_id" value="<?php echo $detail['uid']; ?>">
-                                                    <input type="hidden" name="user_id" value="<?php echo $_W['fans']['uid']; ?>">
+                                                    <input type="hidden" name="user_id" id="user-id" value="<?php echo $_W['fans']['uid']; ?>">
+                                                    <input type="hidden" name="room_id" id="roomid" value="<?php echo $_GPC['id']; ?>">
+                                                    <input type="hidden" name="current_date" id="current-date" value="">
+                                                    <input type="hidden" name="table_id" id="table-id" value="">
                                                     <div class="form-group">
                                                         <label for="room-price" class="control-label col-xs-2" style="padding-top: 7px;">Price: </label>
-                                                        <div class="col-xs-6">
-                                                            <input type="text" name="room_price" id="room-price" class="form-control"
+                                                        <div class="col-xs-3">
+                                                            <input type="text" name="room_price" id="room-price" class="form-control" required
                                                                    placeholder="100">
                                                         </div>
-                                                        <div class="col-xs-4">
+                                                        <label for="room-num" class="control-label col-xs-2" style="padding-top: 7px;">Nums: </label>
+                                                        <div class="col-xs-3">
+                                                            <input type="text" name="room_num" id="room-num" class="form-control" required
+                                                                   placeholder="1" value="1">
+                                                        </div>
+                                                        <div class="col-xs-2">
                                                             <div class="checkbox">
                                                                 <label>
                                                                     <input name="room_status" id="room-status" value="1" type="checkbox" checked="checked">
@@ -127,7 +134,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button id="change-room-status" type="button" class="btn btn-primary">Save changes</button>
                                     </div>
                                 </div>
                             </div>
@@ -318,5 +325,4 @@
     function pay() {
         location.href = "<?php  echo $this->createMobileUrl('pay', array('id' => $detail['id']))?>";
     }
-</script>
-</html>
+</scrip
