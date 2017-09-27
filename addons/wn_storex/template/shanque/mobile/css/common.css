@@ -698,3 +698,24 @@ font-size:36px; margin-top:15px; color:#289F0F; display:block; border:2px solid 
 .f-number{
     background-color: rgb(192,255,193);
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .f-yuan {
+        position: absolute;
+        height: 20px;
+        top: 13px;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    .f-day{
+        position: absolute;
+        line-height: 20px;
+        top: 5px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+}

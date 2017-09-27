@@ -6,7 +6,6 @@ $today = $_GPC['current_date'];
 $id = intval($_GPC['table_id']);
 
 $entry = array(
-    'id' => intval($_GPC['table_id']),
     'weid'      => 1,
     'hotelid'   => 1,
     'roomid'    => intval($_GPC['room_id']),
@@ -22,10 +21,15 @@ $entry = array(
 if ($id < 0)
     $entry['id'] = null;
 
-if ($id < 0)
+if ($id < 0) {
     $message = pdo_insert('storex_room_price', $entry);
+    $last_insert_id = pdo_insertid();
+}
+else{
+    pdo_update('storex_room_price', $entry, array('id' => $id));
+}
 
-$last_insert_id = pdo_insertid();
+
 
 $data['message'] = $message;
 $data['entry'] = $entry;

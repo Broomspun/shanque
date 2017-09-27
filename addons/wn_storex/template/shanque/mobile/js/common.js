@@ -162,7 +162,7 @@ $(document).ready(function () {
                         price_div = '';
                     } else {
                         if ( res[currentDate1]!=undefined) {
-                            price_div = "<div class='f-yuan' data-num='"+res[currentDate1].num+"' data-table-id='"+res[currentDate1].id+"' data-status='"+res[currentDate1].status+"'>" + res[currentDate1].price + "元</div>";
+                            price_div = "<div class='f-yuan' data-num='"+res[currentDate1].num+"' data-table-id='"+res[currentDate1].id+"' data-status='"+res[currentDate1].status+"'>" + parseInt(res[currentDate1].price) + "元</div>";
 
                             if(res[currentDate1].status==0)  {
                                 class_name = "f-number unavailable";

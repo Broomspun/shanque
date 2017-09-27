@@ -136,11 +136,19 @@
                 }
             })
             .done(function( res ) {
-                console.log(res);
-                var x = 10
+                $('#myModal').modal('hide');
+
+                if(room_status==1)
+                    $('.f-on').removeClass('unavailable');
+                else
+                    $('.f-on').addClass('unavailable');
+
+                $('.f-on div.f-yuan').data('status',room_status);
+                $('.f-on div.f-yuan').data('num',room_status$('#room-num').val());
+
+                $('.f-on div.f-yuan').text($('#room-price').val());
             })
 
-            $('#myModal').modal('hide')
        })
 
 
