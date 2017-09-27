@@ -60,7 +60,15 @@
                 })
 
 
-        })
+        });
+
+        $(document).on('click', ".f-rili-table .f-number", function(){
+            $(".f-rili-table .f-number").removeClass("f-on");
+            $(this).addClass("f-on");
+            $('#myModal').modal('show');
+        });
+
+
     });
 
 

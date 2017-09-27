@@ -1,7 +1,7 @@
 /*********************点击事件*********************/
 $(document).ready(function () {
 
-    $('#search_Click').die().live("click", function () {
+    $('#search_Click').on("click", function () {
         if ($(this).hasClass("on")) {
             $(this).find("i").attr('class', '').toggleClass("fa fa-caret-up");
             $('#Expand_content').toggleClass("search-container");
@@ -194,11 +194,7 @@ $(document).ready(function () {
                     }
                 }
                 //绑定选择方法
-                $(".f-rili-table .f-number").off("click");
-                $(".f-rili-table .f-number").on("click", function () {
-                    $(".f-rili-table .f-number").removeClass("f-on");
-                    $(this).addClass("f-on");
-                });
+
 
                 //绑定查看方法
                 $(".f-yuan").off("mouseover");
