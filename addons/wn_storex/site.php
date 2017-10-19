@@ -227,12 +227,16 @@ class Wn_storexModuleSite extends WeModuleSite {
 		global $_GPC, $_W;
 		//获取店铺信息
 		$detail = pdo_fetch("SELECT * FROM " . tablename('storex_room') . " WHERE id = :id ", array(':id' => $_GPC['id']));
+		$reserved = pdo_fetchall("SELECT * FROM " . tablename('storex_room_price') . " WHERE roomid = :id ", array(':id' => $_GPC['id']));
 		$piclisttemp = iunserializer($detail['thumbs']);
 		for($i=0;$i<count($piclisttemp);$i++){
 			$piclist[$i]['img'] = $piclisttemp[$i];
 		}
 		//获取是否已购买
 		$ispay = pdo_fetch("SELECT id FROM " . tablename('storex_room_ispay') . " WHERE room_id = :roomid and uid = :uid ", array(':roomid' => $detail['id'],':uid' => $_W['openid']));
+		$reviews = pdo_fetchall("SELECT m1.avatar, m1.nickname, m2.review, m2.review_date FROM ".tablename('mc_members')." AS m1 LEFT JOIN ".tablename('storex_room_review')." AS m2 ON m1.uid=m2.uid WHERE m2.roomid=:roomid",array(':roomid' => $_GPC['id']));
+
+		$my_review = pdo_fetch("SELECT uid FROM " . tablename('storex_room_review') . " WHERE uid = :uid ", array(':uid' => $_W['fans']['uid']));
 		//获取房态和放价
 		//暂未开发
 		
